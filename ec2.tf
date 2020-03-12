@@ -1,3 +1,7 @@
+provider "aws" {
+  region  = "us-east-2"
+  }
+
 resource "aws_instance" "terraformtest" {
   ami           = "ami-0e38b48473ea57778"
   instance_type = "t2.micro"

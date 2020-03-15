@@ -26,6 +26,7 @@ resource "aws_security_group" "TerraformTestSG" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
+  
   ingress {
     description = "Port 80"
     from_port   = 80

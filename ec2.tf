@@ -12,6 +12,7 @@ resource "aws_instance" "terraformtest" {
 }
 
 
+
 resource "aws_security_group" "TerraformTestSG" {
   name        = "TerraformTestSG"
   description = "Allow TLS inbound traffic"
